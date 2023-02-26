@@ -39,7 +39,7 @@ public class Job {
         }
         else
         {
-            str1.append("\nID:  "+id);
+            str1.append("\nID: "+id);
             str1.append("\nName: "+(name.isEmpty()?"Data not available":name));
             str1.append("\nEmployer: "+(employer.getValue().isEmpty()?"Data not available":employer.getValue()));
             str1.append("\nLocation: "+(location.getValue().isEmpty()?"Data not available":location.getValue()));

@@ -124,7 +124,7 @@ public class TestTaskTwo extends AbstractTest {
         assertFalse(positionType.equals(anotherPositionType));
         assertNotEquals(positionType.getId(), anotherPositionType.getId());
 
-        // Use reflection to make both objects have the same id and test
+        // Use reflection to make both objects have the same id and test=========9
         Field anotherPositionTypeIdField;
         try {
             anotherPositionTypeIdField = PositionType.class.getDeclaredField("id");
